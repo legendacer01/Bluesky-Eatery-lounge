@@ -1,0 +1,311 @@
+/* * {
+
+  background-color: rgba(200, 196, 176, 0.467);
+} */
+
+
+
+
+
+
+.logo-layout {
+
+  width: 100%;
+  /* border: 1px solid black; */
+
+}
+
+.logo-layout .logo {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  margin-bottom: 3%;
+
+}
+
+.logo-layout img {
+
+  max-width: 100%;
+  height: auto;
+  /* border: 1px solid black; */
+
+}
+
+b p {
+
+  font-size: 20px;
+  font-weight: 450;
+  text-align: center;
+
+}
+
+.general-container {
+
+  width: 70%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+
+}
+
+
+
+.big {
+
+  font-size: 50px;
+  display: none;
+  visibility: hidden;
+
+}
+
+hr {
+
+  height: 5px;
+
+}
+
+.nav-item a {
+
+  color: black;
+
+}
+
+.card1 {
+
+  display: grid;
+  gap: 20px;
+  /* why did this gap apply horizontally when you add more 2 image products, you'll see the effect */
+  grid-template-columns: repeat(2, 1fr);
+  /* border: 1px solid black; */
+  margin-bottom: 5%;
+
+}
+
+.card1 img {
+
+  display: block;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+  /* padding-bottom: 20%; */
+
+
+}
+
+.card1 p {
+
+  /* font-size: medium; */
+  /* font-weight: 500; */
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10px;
+  margin-bottom: 0;
+
+}
+
+/* .card2{
+
+  border: 1px solid black;
+  width: 100%;
+
+} */
+
+/* .product1 {
+
+  overflow: hidden;
+
+} */
+
+.card2 {
+
+  display: grid;
+  /* flex-wrp: wrap; */
+  gap: 30px 20px;
+  grid-template-columns: repeat(4, 1fr);
+  /* border: 1px solid black; */
+  /* margin-top: 5%; */
+  /* padding: 3%; */
+
+}
+
+.card2 img {
+
+  display: block;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+
+  /* border: 1px solid black; */
+  /* margin-top: 10px; */
+
+}
+
+.card2 p {
+
+  /* font-size: medium; */
+  /* font-weight: 500; */
+  width: 90%;
+  margin: 20px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  /* text-align: center; */
+  /* margin-top: 10px;
+  margin-bottom: 0; */
+
+}
+
+/* .product2{
+
+  overflow: hidden;
+} */
+
+
+.user-profile h3 {
+
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.user-profile img {
+
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+
+}
+
+
+
+
+
+
+@media(max-width:768px) {
+
+  .logo-layout .logo {
+
+    margin-bottom: 3%;
+
+  }
+
+  .nav-item a {
+
+    display: none;
+
+  }
+
+  .big {
+
+    font-size: 25px;
+    padding-left: 50%;
+    visibility: visible;
+
+  }
+
+  .card1 {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+  }
+
+  .general-container {
+
+    width: 100%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+
+  }
+
+  .card1 img {
+
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    /* padding-bottom: 20%; */
+    margin-bottom: 0;
+
+
+  }
+
+  .card2 {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 20px;
+    /* border: 1px solid black; */
+    /* margin-top: 5%; */
+    /* padding: 3%; */
+
+  }
+
+  .card2 img {
+
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    /* padding-bottom: 10%; */
+    /* border: 1px solid green; */
+    /* margin-top: 10px; */
+
+
+  }
+
+  .card2 p {
+
+    /* font-size: medium; */
+    /* font-weight: 500; */
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5px;
+    margin-bottom: 0;
+
+  }
+
+
+  aside h3 {
+
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.user-profile div {
+
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  /* grid-template-columns: 1fr 1fr; */
+  border: 1px solid black;
+
+}
+
+.user-profile img {
+
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+  height: 25%;
+  width: 30%;
+  border-radius: 50%;
+  flex-shrink: 0;
+
+}
+
+.user-profile p {
+
+  width: 65%;
+  margin: 0;
+  /* margin: 20px; */
+  /* word-wrap: break-word; */
+  /* overflow-wrap: break-word; */
+
+}
+
+
+}
